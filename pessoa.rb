@@ -1,7 +1,7 @@
 class Pessoa
   attr_accessor :nome, :sobrenome, :idade, :sexo
   
-  def intialize(nome, sobrenome, idade, sexo)
+  def initialize(nome, sobrenome, idade, sexo)
     @nome = nome
     @sobrenome = sobrenome
     @idade = idade
